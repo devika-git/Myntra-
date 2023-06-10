@@ -15,7 +15,7 @@ pipeline {
                            stage('Deployment'){
                                steps {
 
-                                       sh 'cp target/Myntra.war /home/devkanya/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
+                                       sh 'cp target/Myntra-.war /home/devkanya/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
         }
 
 }}}
